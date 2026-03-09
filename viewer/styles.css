@@ -1,7 +1,6 @@
 #controls-bar {
   display: flex;
   flex-direction: column;
-  gap: 18px;
   flex-wrap: wrap;       
   align-items: center;
   justify-content: center;
@@ -108,6 +107,27 @@
   gap: 12px;
   padding-top: 12px;
 }
-  
+
+.controls-row {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: center;
+  gap: 12px;
+}
+
+#axis-row {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  align-items: center;
+}
+
+#x-select, #y-select, #z-select {
+  display: flex;
+  align-items: center;
+  gap: 6px;
+}
   
   
